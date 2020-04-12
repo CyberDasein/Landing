@@ -1,0 +1,27 @@
+$Roboto: 'Roboto', sans-serif;
+$light-blue: #12e3f6;
+$deep-blue: #b5e1f0;
+
+// mixins for media
+
+@mixin media-xs {
+  @media (max-width: 575.98px){
+    @content;
+  }
+}
+@mixin media-sm {
+  @media (max-width: 767.98px) {
+    @content;
+  }
+}
+@mixin media-md {
+  @media (max-width: 991.98px) {
+    @content;
+  }
+}
+@mixin media-lg {
+  @media (max-width: 1199.98px) {
+    @content;
+  }
+}
+

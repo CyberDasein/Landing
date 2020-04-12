@@ -1,0 +1,46 @@
+.banner {
+  margin-top: 70px;
+  margin-bottom: 70px;
+
+  &__wrap {
+    display: flex;
+    @include media-md {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  &__text {
+    color: #faf9f9;
+    font-size: 18px;
+  }
+  &__title {
+    color: #faf9f9;
+    font-size: 47px;
+    margin: 0;
+    margin-bottom: 36px;
+  }
+  &__img {
+    max-width: 455px;
+    flex-shrink: 0;
+
+    img {
+      min-height: 100%;
+    }
+
+    @include media-md {
+      margin-top: 40px;
+      order: 1;
+    }
+  }
+  &__inner {
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include media-md {
+      align-items: center;
+      margin-left: 0;
+    }
+  }
+}

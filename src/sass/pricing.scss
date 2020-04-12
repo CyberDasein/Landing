@@ -1,0 +1,72 @@
+.pricing {
+  margin-bottom: 55px;
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: -15px;
+    padding-bottom: -15px;
+  }
+  &__item {
+    display: flex;
+    padding-bottom: 15px;
+    flex-direction: column;
+    margin-left: 15px;
+  }
+  &__num {
+    text-align: center;
+    color: #faf9f9;
+    padding: 30px 75px;
+    background-color: $light-blue;
+    font-size: 30px;
+    span {
+      text-transform: uppercase;
+    }
+  }
+  &__descr {
+    position: relative;
+    text-align: center;
+    padding: 30px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      background: url('../images/pricing__decor.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      left: 45px;
+      top: -23px;
+      width: 40px;
+      height: 75px;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      background: url('../images/pricing__decor.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      right: 45px;
+      top: -23px;
+      width: 40px;
+      height: 75px;
+    }
+  }
+  &__option {
+    padding: 10px 20px;
+    border-bottom: 1px solid #c4c1be;
+  }
+
+  &__link {
+    color: #faf9f9;
+    text-align: center;
+    text-decoration: none;
+    background-color: #832cce;
+    padding: 15px 45px;
+    font-family: Roboto;
+    font-size: 18px;
+
+    text-transform: uppercase;
+  }
+}

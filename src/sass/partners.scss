@@ -1,0 +1,17 @@
+.partners {
+  margin-bottom: 50px;
+
+  &__items {
+    margin-left: -100px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  &__item {
+    margin-top: 20px;
+    margin-left: 100px;
+    flex-shrink: 0;
+  }
+}

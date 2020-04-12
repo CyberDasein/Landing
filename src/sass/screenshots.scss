@@ -1,0 +1,17 @@
+.screenshots {
+  &__items {
+    margin-top: 48px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    margin-left: -12px;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    flex-grow: 0;
+    max-width: 286px;
+    margin-top: 21px;
+    margin-left: 12px;
+  }
+}
