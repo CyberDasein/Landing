@@ -1,5 +1,6 @@
 .blog {
   margin-bottom: 100px;
+
   &__wrap {
     display: flex;
     justify-content: center;
@@ -51,5 +52,8 @@
     @include media-md {
       order: 1;
     }
+  }
+  @include media-md {
+    margin-bottom: 70px;
   }
 }
