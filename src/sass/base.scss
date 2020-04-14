@@ -22,3 +22,29 @@ body {
 .bg-light-blue {
   background-color: $light-blue;
 }
+.slick-dots {
+  display: flex;
+  justify-content: center;
+
+  button {
+    width: 11px;
+    height: 11px;
+    padding: 0;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 0;
+    color: transparent;
+
+    &:active {
+      background-color: gray;
+    }
+  }
+  li {
+    margin: 0 10px;
+  }
+}
+.slick-slide {
+  outline: none;
+}
